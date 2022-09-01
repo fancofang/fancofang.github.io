@@ -43,6 +43,10 @@ span {
     font-size: 3em;
 }
 
+#ckintro {
+  border-color: transparent;
+  background: transparent;
+}
 
 @media (min-width: 500px) {
   body {

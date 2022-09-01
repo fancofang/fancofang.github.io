@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a2c859f1-4327-4f2a-8f1a-97e8ccc8e478" name="localhost" url="http:///myserver.com">
+        <fileTransfer accessType="LOCAL" port="0" />
+      </webServer>
+    </option>
+    <groups>
+      <group>
+        <name>DebugPortfolio</name>
+        <servers>
+          <name value="localhost" />
+        </servers>
+      </group>
+    </groups>
+  </component>
+</project>

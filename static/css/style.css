@@ -50,6 +50,10 @@ p {
     min-height:100%;
 }
 
+dd {
+    padding-left: 50px;
+}
+
 #about {
     padding-top: 80px;
 
