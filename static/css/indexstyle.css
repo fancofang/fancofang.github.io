@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: grid;
+  place-content: center;
+  overflow: hidden;
+  font: 500 1em/1.4 -apple-system, BlinkMacSystemFont, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2E2C33;
+  background: #FBFBFD;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+
+body > * {
+  display: flex;
+}
+
+script {
+    display: none;
+}
+
+p {
+  margin-bottom: 5em;
+}
+
+span {
+  opacity: 0;
+}
+
+.space {
+  width: .25em;
+}
+
+.arrow {
+    font-size: 3em;
+}
+
+
+@media (min-width: 500px) {
+  body {
+    font-size: 1.4em;
+  }
+}
